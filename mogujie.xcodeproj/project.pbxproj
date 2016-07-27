@@ -13,12 +13,15 @@
 		1FC1C1D91D48563C0056029B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC1C1D71D48563C0056029B /* LaunchScreen.storyboard */; };
 		1FC1C1E41D48563D0056029B /* mogujieTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C1E31D48563D0056029B /* mogujieTests.m */; };
 		1FC1C1EF1D48563D0056029B /* mogujieUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C1EE1D48563D0056029B /* mogujieUITests.m */; };
-		1FC1C1FE1D4857010056029B /* JLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C1FD1D4857010056029B /* JLTabBarController.m */; };
 		1FC1C2071D4859000056029B /* BuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C2061D4859000056029B /* BuyViewController.m */; };
 		1FC1C20A1D4859180056029B /* ChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C2091D4859180056029B /* ChatViewController.m */; };
 		1FC1C20D1D4859230056029B /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C20C1D4859230056029B /* MeViewController.m */; };
 		1FC1C2101D48593D0056029B /* WanderingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C20F1D48593D0056029B /* WanderingViewController.m */; };
-		1FC1C2131D4869AD0056029B /* JLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C2121D4869AD0056029B /* JLTabBar.m */; };
+		1FC1C2161D48925C0056029B /* PublishViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C2151D48925C0056029B /* PublishViewController.m */; };
+		1FC1C21C1D489B300056029B /* JLTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C2191D489B300056029B /* JLTabBar.m */; };
+		1FC1C21D1D489B300056029B /* JLTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C21B1D489B300056029B /* JLTabBarController.m */; };
+		1FC1C2201D48AF280056029B /* BannerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1FC1C21F1D48AF280056029B /* BannerView.m */; };
+		F2A8FA67F3B1BF7D377C29A3 /* libPods-mogujie.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F242E6B21D88D3707687BDFE /* libPods-mogujie.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0BAE2DDA27CB5D405D007BF3 /* Pods-mogujie.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mogujie.release.xcconfig"; path = "Pods/Target Support Files/Pods-mogujie/Pods-mogujie.release.xcconfig"; sourceTree = "<group>"; };
 		1FC1C1C61D48563C0056029B /* mogujie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mogujie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC1C1CA1D48563C0056029B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1FC1C1CC1D48563C0056029B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +56,6 @@
 		1FC1C1EA1D48563D0056029B /* mogujieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mogujieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FC1C1EE1D48563D0056029B /* mogujieUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mogujieUITests.m; sourceTree = "<group>"; };
 		1FC1C1F01D48563D0056029B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1FC1C1FC1D4857010056029B /* JLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBarController.h; sourceTree = "<group>"; };
-		1FC1C1FD1D4857010056029B /* JLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTabBarController.m; sourceTree = "<group>"; };
 		1FC1C2051D4859000056029B /* BuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BuyViewController.h; sourceTree = "<group>"; };
 		1FC1C2061D4859000056029B /* BuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BuyViewController.m; sourceTree = "<group>"; };
 		1FC1C2081D4859180056029B /* ChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChatViewController.h; sourceTree = "<group>"; };
@@ -62,8 +64,16 @@
 		1FC1C20C1D4859230056029B /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
 		1FC1C20E1D48593D0056029B /* WanderingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WanderingViewController.h; sourceTree = "<group>"; };
 		1FC1C20F1D48593D0056029B /* WanderingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WanderingViewController.m; sourceTree = "<group>"; };
-		1FC1C2111D4869AD0056029B /* JLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBar.h; sourceTree = "<group>"; };
-		1FC1C2121D4869AD0056029B /* JLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTabBar.m; sourceTree = "<group>"; };
+		1FC1C2141D48925C0056029B /* PublishViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PublishViewController.h; sourceTree = "<group>"; };
+		1FC1C2151D48925C0056029B /* PublishViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PublishViewController.m; sourceTree = "<group>"; };
+		1FC1C2181D489B300056029B /* JLTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBar.h; sourceTree = "<group>"; };
+		1FC1C2191D489B300056029B /* JLTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTabBar.m; sourceTree = "<group>"; };
+		1FC1C21A1D489B300056029B /* JLTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JLTabBarController.h; sourceTree = "<group>"; };
+		1FC1C21B1D489B300056029B /* JLTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JLTabBarController.m; sourceTree = "<group>"; };
+		1FC1C21E1D48AF280056029B /* BannerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BannerView.h; sourceTree = "<group>"; };
+		1FC1C21F1D48AF280056029B /* BannerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BannerView.m; sourceTree = "<group>"; };
+		9012158CC145CECC8A604A8B /* Pods-mogujie.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-mogujie.debug.xcconfig"; path = "Pods/Target Support Files/Pods-mogujie/Pods-mogujie.debug.xcconfig"; sourceTree = "<group>"; };
+		F242E6B21D88D3707687BDFE /* libPods-mogujie.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-mogujie.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A8FA67F3B1BF7D377C29A3 /* libPods-mogujie.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -91,6 +102,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0727856B3F38D3862E6B1E5E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F242E6B21D88D3707687BDFE /* libPods-mogujie.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		1FC1C1BD1D48563C0056029B = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +117,8 @@
 				1FC1C1E21D48563D0056029B /* mogujieTests */,
 				1FC1C1ED1D48563D0056029B /* mogujieUITests */,
 				1FC1C1C71D48563C0056029B /* Products */,
+				CFC1FB63C040AA57522666BF /* Pods */,
+				0727856B3F38D3862E6B1E5E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -116,16 +137,13 @@
 			children = (
 				1FC1C1CC1D48563C0056029B /* AppDelegate.h */,
 				1FC1C1CD1D48563C0056029B /* AppDelegate.m */,
-				1FC1C1FC1D4857010056029B /* JLTabBarController.h */,
-				1FC1C1FD1D4857010056029B /* JLTabBarController.m */,
-				1FC1C2111D4869AD0056029B /* JLTabBar.h */,
-				1FC1C2121D4869AD0056029B /* JLTabBar.m */,
+				1FC1C2171D489B300056029B /* Main */,
 				1FC1C1FF1D48588D0056029B /* Buy */,
 				1FC1C2001D48588D0056029B /* Chat */,
 				1FC1C2011D48588D0056029B /* Me */,
-				1FC1C2021D48588D0056029B /* Other */,
 				1FC1C2031D48588D0056029B /* Publish */,
 				1FC1C2041D48588D0056029B /* Wandering */,
+				1FC1C2021D48588D0056029B /* Other */,
 				1FC1C1C91D48563C0056029B /* Supporting Files */,
 			);
 			path = mogujie;
@@ -197,6 +215,8 @@
 		1FC1C2031D48588D0056029B /* Publish */ = {
 			isa = PBXGroup;
 			children = (
+				1FC1C2141D48925C0056029B /* PublishViewController.h */,
+				1FC1C2151D48925C0056029B /* PublishViewController.m */,
 			);
 			path = Publish;
 			sourceTree = "<group>";
@@ -206,8 +226,30 @@
 			children = (
 				1FC1C20E1D48593D0056029B /* WanderingViewController.h */,
 				1FC1C20F1D48593D0056029B /* WanderingViewController.m */,
+				1FC1C21E1D48AF280056029B /* BannerView.h */,
+				1FC1C21F1D48AF280056029B /* BannerView.m */,
 			);
 			path = Wandering;
+			sourceTree = "<group>";
+		};
+		1FC1C2171D489B300056029B /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1FC1C2181D489B300056029B /* JLTabBar.h */,
+				1FC1C2191D489B300056029B /* JLTabBar.m */,
+				1FC1C21A1D489B300056029B /* JLTabBarController.h */,
+				1FC1C21B1D489B300056029B /* JLTabBarController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		CFC1FB63C040AA57522666BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9012158CC145CECC8A604A8B /* Pods-mogujie.debug.xcconfig */,
+				0BAE2DDA27CB5D405D007BF3 /* Pods-mogujie.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -217,9 +259,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1FC1C1F31D48563D0056029B /* Build configuration list for PBXNativeTarget "mogujie" */;
 			buildPhases = (
+				565B44E6630AA266A6BCD5B9 /* [CP] Check Pods Manifest.lock */,
 				1FC1C1C21D48563C0056029B /* Sources */,
 				1FC1C1C31D48563C0056029B /* Frameworks */,
 				1FC1C1C41D48563C0056029B /* Resources */,
+				C77D3076ED05775BC8BC4C79 /* [CP] Embed Pods Frameworks */,
+				ED546E966D4DBAE1880F488B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -334,6 +379,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		565B44E6630AA266A6BCD5B9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C77D3076ED05775BC8BC4C79 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mogujie/Pods-mogujie-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ED546E966D4DBAE1880F488B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-mogujie/Pods-mogujie-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1FC1C1C21D48563C0056029B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -341,12 +434,14 @@
 			files = (
 				1FC1C20D1D4859230056029B /* MeViewController.m in Sources */,
 				1FC1C1CE1D48563C0056029B /* AppDelegate.m in Sources */,
+				1FC1C21D1D489B300056029B /* JLTabBarController.m in Sources */,
 				1FC1C2101D48593D0056029B /* WanderingViewController.m in Sources */,
 				1FC1C2071D4859000056029B /* BuyViewController.m in Sources */,
 				1FC1C20A1D4859180056029B /* ChatViewController.m in Sources */,
 				1FC1C1CB1D48563C0056029B /* main.m in Sources */,
-				1FC1C1FE1D4857010056029B /* JLTabBarController.m in Sources */,
-				1FC1C2131D4869AD0056029B /* JLTabBar.m in Sources */,
+				1FC1C2161D48925C0056029B /* PublishViewController.m in Sources */,
+				1FC1C2201D48AF280056029B /* BannerView.m in Sources */,
+				1FC1C21C1D489B300056029B /* JLTabBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -479,6 +574,7 @@
 		};
 		1FC1C1F41D48563D0056029B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9012158CC145CECC8A604A8B /* Pods-mogujie.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mogujie/Info.plist;
@@ -490,6 +586,7 @@
 		};
 		1FC1C1F51D48563D0056029B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BAE2DDA27CB5D405D007BF3 /* Pods-mogujie.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = mogujie/Info.plist;
@@ -564,6 +661,7 @@
 				1FC1C1F51D48563D0056029B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC1C1F61D48563D0056029B /* Build configuration list for PBXNativeTarget "mogujieTests" */ = {
 			isa = XCConfigurationList;
@@ -572,6 +670,7 @@
 				1FC1C1F81D48563D0056029B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1FC1C1F91D48563D0056029B /* Build configuration list for PBXNativeTarget "mogujieUITests" */ = {
 			isa = XCConfigurationList;
@@ -580,6 +679,7 @@
 				1FC1C1FB1D48563D0056029B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

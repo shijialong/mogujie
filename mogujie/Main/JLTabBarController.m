@@ -11,6 +11,7 @@
 #import "ChatViewController.h"
 #import "MeViewController.h"
 #import "WanderingViewController.h"
+#import "PublishViewController.h"
 #import "JLTabBar.h"
 
 
@@ -25,7 +26,7 @@
     [self setUpChildViewControllers];
     [self setupTabBar];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(photo) name:@"kCameraNotice"object:nil];
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(photoClick) name:@"kCameraNotice"object:nil];
 }
 
 - (void)setUpChildViewControllers {
@@ -65,7 +66,9 @@
 
 }
 
-- (void)photo {
-
+- (void)photoClick {
+    PublishViewController *publishVC = [[PublishViewController alloc] init];
+    UINavigationController *publishNav = [[UINavigationController alloc] initWithRootViewController:publishVC];
+    [self presentViewController:publishNav animated:YES completion:nil];
 }
 @end
